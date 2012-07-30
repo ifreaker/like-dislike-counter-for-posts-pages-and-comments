@@ -23,11 +23,11 @@ Like Dislike counter plugin is simple plugin which show likes and dislikes for a
 1. Activate the plugin through the 'Plugins' menu in WordPress
 2. This plugin will not automatically added to your theme. You need to add php lines manually.
 3. For Posts use the code in loop
-	For like
-	<?php if(function_exists(‘like_counter_p’)) { like_counter_p(“text for like”); } ?>
+	For like(with in php tags)
+	 if(function_exists(‘like_counter_p’)) { like_counter_p(“text for like”); } 
 
-	For Dislike
-	<?php if(function_exists(‘dislike_counter_p’)) { dislike_counter_p(“text for un-like”); } ?>
+	For Dislike(with in php tags)
+	 if(function_exists(‘dislike_counter_p’)) { dislike_counter_p(“text for un-like”); } 
 
 	Parameter provide is optional. HTML can also be used as parameter.
 4. For Comments use the code in loop
