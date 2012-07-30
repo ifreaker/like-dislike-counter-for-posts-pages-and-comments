@@ -14,13 +14,8 @@ A simple like dislike counter for posts, pages and comments.
 Like Dislike counter plugin is simple plugin which show likes and dislikes for a particular(post, page or a comment). Its very simple to use. You just need to write a simple code and the text that you want to diplay. It counts unique likes/dislikes. 
 
 =Features  =
-    Put any html content with in the slides may be video, images or html itself
-    Adjust the timings at your wish
-    Adjust the flow of the slide i.e. from left to right or top to bottom and so on
-    Pause on hover or not.
-    Above all Free to use
-    Move the slides up and down as you wish.
-    Add as many slides you can.
+    This plugin adds simple like dislike counter to posts and pages or comments as you put the code in the page templates. 
+
 
 == Installation ==
 
