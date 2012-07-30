@@ -1,30 +1,71 @@
-Like Unlike Counter for post and comments
-This plugin will not automatically added to your theme.
-You need to add php lines manually.
-Here is the Details for how to use.
+=== Like Dislike Counter===
+Contributors: rahulbrilliant2004, tikendramaitry
+Donate link: http://www.wpfruits.com
+Tags: counter, like, dislike, comments, posts, pages
+Requires at least: 2.8
+Tested up to: 3.4
+Stable tag: 
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-For Posts use the code in loop
+A simple like dislike counter for posts, pages and comments.   
 
-for like
-<?php if(function_exists('like_counter_p')) { like_counter_p("text for like"); } ?>
+== Description ==
+Like Dislike counter plugin is simple plugin which show likes and dislikes for a particular(post, page or a comment). Its very simple to use. You just need to write a simple code and the text that you want to diplay. It counts unique likes/dislikes. 
 
-For Dislike
-<?php if(function_exists('dislike_counter_p')) { dislike_counter_p("text for un-like"); } ?>
+=Features  =
+    Put any html content with in the slides may be video, images or html itself
+    Adjust the timings at your wish
+    Adjust the flow of the slide i.e. from left to right or top to bottom and so on
+    Pause on hover or not.
+    Above all Free to use
+    Move the slides up and down as you wish.
+    Add as many slides you can.
 
-Parameter provide is optional. HTML can also be used as parameter.
+== Installation ==
+
+0. Upload `like-dislike-counter` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+2. This plugin will not automatically added to your theme. You need to add php lines manually.
+3. For Posts use the code in loop
+	For like
+	<?php if(function_exists(‘like_counter_p’)) { like_counter_p(“text for like”); } ?>
+
+	For Dislike
+	<?php if(function_exists(‘dislike_counter_p’)) { dislike_counter_p(“text for un-like”); } ?>
+
+	Parameter provide is optional. HTML can also be used as parameter.
+4. For Comments use the code in loop
+
+	For like
+	<?php if(function_exists(‘like_counter_c’)) { like_counter_c(“text for like”); } ?>
+
+	For Dislike
+	<?php if(function_exists(‘dislike_counter_c’)) { dislike_counter_c(“text for dislike”); } ?>
+
+5.Does not have any backend admin panel.
+
+	Thanks for using this plugin
+
+For More Details please visit http://www.wpfruits.com/downloads/wp-plugins/wp-like-dislike-counter-plugin/
+
+== Frequently asked questions ==
+
+= A question that someone might have =
+
+An answer to that question.
+
+== Screenshots ==
 
 
 
-For Comments use the code in loop
+== Changelog ==
 
-for like
-<?php if(function_exists('like_counter_c')) { like_counter_c("text for like"); } ?>
 
-For Dislike
-<?php if(function_exists('dislike_counter_c')) { dislike_counter_c("text for dislike"); } ?>
 
-Does not have any backend admin panel.
+== Upgrade notice ==
 
-Thanks for using this plugin.
 
+
+== Arbitrary section 1 ==
 
