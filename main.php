@@ -35,7 +35,7 @@ function like_counter_p($text="Likes: ",$post_id=NULL)
 	{
 	$post_id=$post->ID;
 	}
-	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','like')\" >".$text."<img src=\"".WP_PLUGIN_URL."/like-dislike-counter/images/up.png\" />(<span>".get_post_ul_meta($post_id,"like")."</span>)</span>";
+	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','like')\" >".$text."<img src=\"".plugins_url( 'images/up.png' , __FILE__ )."\" />(<span>".get_post_ul_meta($post_id,"like")."</span>)</span>";
 }
 
 function dislike_counter_p($text="dislikes: ",$post_id=NULL)
@@ -45,7 +45,7 @@ function dislike_counter_p($text="dislikes: ",$post_id=NULL)
 	{
 	$post_id=$post->ID;
 	}
-	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','dislike')\" >".$text."<img src=\"".WP_PLUGIN_URL."/like-dislike-counter/images/down.png\" />(<span>".get_post_ul_meta($post_id,"dislike")."</span>)</span>";
+	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','dislike')\" >".$text."<img src=\"".plugins_url( 'images/down.png' , __FILE__ )."\" />(<span>".get_post_ul_meta($post_id,"dislike")."</span>)</span>";
 }
 
 function like_counter_c($text="Likes: ",$post_id=NULL)
@@ -55,7 +55,7 @@ function like_counter_c($text="Likes: ",$post_id=NULL)
 	{
 	$post_id=get_comment_ID();
 	}
-	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','c_like')\" >".$text."<img src=\"".WP_PLUGIN_URL."/like-dislike-counter/images/up.png\" />(<span>".get_post_ul_meta($post_id,"c_like")."</span>)</span>";
+	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','c_like')\" >".$text."<img src=\"".plugins_url( 'images/up.png' , __FILE__ )."\" />(<span>".get_post_ul_meta($post_id,"c_like")."</span>)</span>";
 }
 function dislike_counter_c($text="dislikes: ",$post_id=NULL)
 {
@@ -64,7 +64,7 @@ function dislike_counter_c($text="dislikes: ",$post_id=NULL)
 	{
 	$post_id=get_comment_ID();
 	}
-	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','c_dislike')\" >".$text."<img src=\"".WP_PLUGIN_URL."/like-dislike-counter/images/up.png\" />(<span>".get_post_ul_meta($post_id,"c_dislike")."</span>)</span>";
+	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','c_dislike')\" >".$text."<img src=\"".plugins_url( 'images/up.png' , __FILE__ )."\" />(<span>".get_post_ul_meta($post_id,"c_dislike")."</span>)</span>";
 }
 function get_post_ul_meta($post_id,$up_type)
 {
@@ -139,7 +139,7 @@ function wp_dislike_like_footer_script() {
 		jQuery(obj).find("span").html("..");
     	jQuery.ajax({
    		type: "POST",
-   		url: "<?php echo WP_PLUGIN_URL;?>/like-dislike-counter/ajax_counter.php",
+   		url: "<?php echo plugins_url( 'ajax_counter.php' , __FILE__ );?>",
    		data: "post_id="+post_id+"&up_type="+ul_type,
    		success: function(msg){
      		jQuery(obj).find("span").html(msg);
