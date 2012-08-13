@@ -57,6 +57,8 @@ An answer to that question.
 
 
 == Changelog ==
+1.1
+Updated plugin to show down.png in comments too. Earlier it was showing up.png for both like and dislike. 
 
 
 
