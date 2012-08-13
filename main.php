@@ -4,7 +4,7 @@ Plugin Name: Like Dislike counter
 Plugin URI: http://www.wpfruits.com
 Description: Like dislike counter for posts and comments
 Author: WPFruits
-Version: 1.0
+Version: 1.1
 Author URI: http://www.wpfruits.com
 */
 function like_dislike_counter_install() 
@@ -64,7 +64,7 @@ function dislike_counter_c($text="dislikes: ",$post_id=NULL)
 	{
 	$post_id=get_comment_ID();
 	}
-	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','c_dislike')\" >".$text."<img src=\"".plugins_url( 'images/up.png' , __FILE__ )."\" />(<span>".get_post_ul_meta($post_id,"c_dislike")."</span>)</span>";
+	echo "<span class='ul_cont' onclick=\"alter_ul_post_values(this,'$post_id','c_dislike')\" >".$text."<img src=\"".plugins_url( 'images/down.png' , __FILE__ )."\" />(<span>".get_post_ul_meta($post_id,"c_dislike")."</span>)</span>";
 }
 function get_post_ul_meta($post_id,$up_type)
 {
