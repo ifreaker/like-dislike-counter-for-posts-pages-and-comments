@@ -14,7 +14,11 @@ A simple ajax based WordPress Plugin which allows you to like or dislike posts, 
 
 Like Dislike counter plugin allows to integrate Like, Dislike Button into your WordPress website to allow your visitors to like and dislike pages, posts, custom post types and comments anonymously. Its very simple to use. You even have to write a single line of code to setup this plugin. It counts unique likes/dislikes for post/pages/comments. 
 
-* Read more instructions about how to use here http://www.wpfruits.com/downloads/wp-plugins/wp-like-dislike-counter-plugin/
+**PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">Like Dislike Pro Plugin Url</a>**
+
+**PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
+" target="_blank">Like Dislike Pro DEmo</a>**
 
 = Pro Features =
 * Great Interface.
@@ -41,6 +45,7 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 
 **PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
 " target="_blank">Like Dislike Pro Plugin Url</a>**
+
 **PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
 " target="_blank">Like Dislike Pro DEmo</a>**
 
@@ -69,6 +74,7 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 
 **PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
 " target="_blank">Like Dislike Pro Plugin Url</a>**
+
 **PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
 " target="_blank">Like Dislike Pro DEmo</a>**
 
@@ -80,7 +86,8 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 
 Thanks for using this plugin.
 
-For More Details please visit http://www.wpfruits.com/downloads/wp-plugins/wp-like-dislike-counter-plugin/
+For More Details please visit <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">Like Dislike Pro.</a>
 
 == Frequently asked questions ==
 
