@@ -16,6 +16,34 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 
 * Read more instructions about how to use here http://www.wpfruits.com/downloads/wp-plugins/wp-like-dislike-counter-plugin/
 
+= Pro Features =
+* Great Interface.
+* Ajax feature to update the data without reloading.
+* Visitors do not have to register or log in to use the Like Button.
+* Like-Dislike on Page, Post, Archive Pages and Comments.
+* Like Dislike count for Page, Post, Archive Pages and Comments.
+* Compatible with WP version 3.0 & above.
+* Easy Backend.
+* Clean Design.
+* Compatible with Multisite.
+* Added automatically (no Code required).
+* Template code ready.
+* Custom Like-Dislike Texts.
+* No Back Link needed.
+* Widget to show 'Most Liked' & generate more traffic.(Pro Version)
+* 10 pre-designed Templates.(Pro Version)
+* Freedom to Upload Custom Icon Set.(Pro Version)
+* Different Appearance Settings for Comments & Pages.(Pro Version)
+* 24 x 7 Premium Support.(Pro Version)
+* Shortcode to show like dislike buttons within content.(Pro Version)
+* Enable/Disable for Post Page, Archive Pages(Tags,Authors,Category,Date etc.) and Comments.(Pro Version)
+* Display different iconts for Post/Page and Comments.(Pro Version)
+
+**PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">Like Dislike Pro Plugin Url</a>**
+**PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
+" target="_blank">Like Dislike Pro DEmo</a>**
+
 == Features ==
 * Great Interface.
 * Ajax feature to update the data without reloading.
@@ -39,10 +67,11 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 * Enable/Disable for Post Page, Archive Pages(Tags,Authors,Category,Date etc.) and Comments.(Pro Version)
 * Display different iconts for Post/Page and Comments.(Pro Version)
 
-**PRO Plugin URL:** <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
-" target="_blank">Like Dislike Pro Plugin Url</a>
-**PRO Plugin Demo URL:** <a href="http://plugins.wpfruits.com/like-dislike/
-" target="_blank">Like Dislike Pro DEmo</a>
+**PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">Like Dislike Pro Plugin Url</a>**
+**PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
+" target="_blank">Like Dislike Pro DEmo</a>**
+
 == Installation ==
 1. Upload `like-dislike-counter-for-posts-pages-and-comments` to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress
