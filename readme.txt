@@ -18,7 +18,10 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 " target="_blank">Like Dislike Pro Plugin Url</a>**
 
 **PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
-" target="_blank">Like Dislike Pro DEmo</a>**
+" target="_blank">Like Dislike Pro Demo</a>**
+
+**Go PRO: <a href="http://www.sketchthemes.com/members/signup.php?price_group=8&product_id=8&hide_paysys=paypal_r&ref=wp_org
+" target="_blank">Like Dislike Go Pro</a>**
 
 = Pro Features =
 * Great Interface.
@@ -34,20 +37,27 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 * Template code ready.
 * Custom Like-Dislike Texts.
 * No Back Link needed.
-* Widget to show 'Most Liked' & generate more traffic.(Pro Version)
-* 10 pre-designed Templates.(Pro Version)
-* Freedom to Upload Custom Icon Set.(Pro Version)
-* Different Appearance Settings for Comments & Pages.(Pro Version)
-* 24 x 7 Premium Support.(Pro Version)
-* Shortcode to show like dislike buttons within content.(Pro Version)
+* Widget to show 'Most Liked' & generate more traffic.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
+* 10 pre-designed Templates.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
+* Freedom to Upload Custom Icon Set.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
+* Different Appearance Settings for Comments & Pages.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
+* 24 x 7 Premium Support.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
+* Shortcode to show like dislike buttons within content.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
 * Enable/Disable for Post Page, Archive Pages(Tags,Authors,Category,Date etc.) and Comments.(Pro Version)
-* Display different iconts for Post/Page and Comments.(Pro Version)
+* Display different iconts for Post/Page and Comments.<a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
+" target="_blank">(Pro Version)</a>
 
 **PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
 " target="_blank">Like Dislike Pro Plugin Url</a>**
 
 **PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
-" target="_blank">Like Dislike Pro DEmo</a>**
+" target="_blank">Like Dislike Pro Demo</a>**
 
 == Features ==
 * Great Interface.
@@ -76,7 +86,7 @@ Like Dislike counter plugin allows to integrate Like, Dislike Button into your W
 " target="_blank">Like Dislike Pro Plugin Url</a>**
 
 **PRO Plugin Demo URL: <a href="http://plugins.wpfruits.com/like-dislike/
-" target="_blank">Like Dislike Pro DEmo</a>**
+" target="_blank">Like Dislike Pro Demo</a>**
 
 == Installation ==
 1. Upload `like-dislike-counter-for-posts-pages-and-comments` to the `/wp-content/plugins/` directory.
