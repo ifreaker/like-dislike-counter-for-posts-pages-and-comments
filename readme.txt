@@ -1,6 +1,6 @@
 === Like Dislike Counter===
 Contributors: tikendramaitry, rahulbrilliant2004, Nishant Jain
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wpfruits@gmail.com&item_name=Feedburner-Follow%20Me%20Popup%20And%20Widget&item_number=WordPress.org%20Donation&currency_code=USD&lc=US
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wpfruits@gmail.com&item_name=Like%20Dislike%20Counter%20Lite&item_number=WordPress.org%20Donation&currency_code=USD&lc=US
 Tags: like counter, dislike counter,like, dislike, most liked posts and comments, recently liked posts and comments, thumbs down, thumbs up, like dislike page, like dislike post, like dislike comments
 Requires at least: 2.8
 Tested up to: 3.6
