@@ -111,6 +111,8 @@ For More Details please visit <a href="http://www.sketchthemes.com/plugins/like-
 = Q: Can this be used for post, page and comments as well. =
 A: Yes it can be used for post, page and comments.
 
+For any more questions you can <a href="http://www.sketchthemes.com/helpdesk/index.php?act=tickets&code=open&step=2&department=7">contact here</a>
+
 == Screenshots ==
 1. How to use **Template Code.**
 2. Like Dislike Counter **General Settings.**
