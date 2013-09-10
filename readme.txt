@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wpfru
 Tags: like counter, dislike counter,like, dislike, most liked posts and comments, recently liked posts and comments, thumbs down, thumbs up, like dislike page, like dislike post, like dislike comments
 Requires at least: 2.8
 Tested up to: 3.6
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -120,6 +120,10 @@ For any more questions you can <a href="http://www.sketchthemes.com/helpdesk/ind
 
 
 == Changelog ==
+
+= Version 1.2.1 =
+* Upadted text content.
+* Changed default options.
 
 = Version 1.2.0 =
 * Added admin panel for plugin

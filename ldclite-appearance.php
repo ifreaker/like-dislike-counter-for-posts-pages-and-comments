@@ -241,7 +241,7 @@ function ldclite_appereance(){
 		
 			<div id="poststuff" class="ldc-meta-box">
 				<label for="ldc_use_tempcode"> 
-					<input id="ldc_use_tempcode" title="ldc_use_tempcode" name="ldclite_options[ldc_deactivate]" type="checkbox" value="1" <?php if(isset($options['ldc_deactivate'])){ if($options['ldc_deactivate']=="1"){echo "checked";} }?> /> <b style=" font-size: 13px;margin-left: 2px;text-transform: uppercase;"><?php _e('Check it, if you want to use template code.','ldclite'); ?></b></label>
+					<input id="ldc_use_tempcode" title="ldc_use_tempcode" name="ldclite_options[ldc_deactivate]" type="checkbox" value="1" <?php if(isset($options['ldc_deactivate'])){ if($options['ldc_deactivate']=="1"){echo "checked";} }?> /> <b style=" font-size: 15px;margin-left: 2px;color:#C91F1C;"><?php _e('Check it, if you want to use template code instead of Auto add functionality.','ldclite'); ?></b></label>
 					<div class="postbox ldc_use_tempcode" id="post_settings_box" style="margin-top:10px;<?php if(isset($options['ldc_deactivate']) && $options['ldc_deactivate'] ===0){ ?> display:none;<?php } ?>" >
 					<div class="handlediv" title="Click to toggle"><br/></div>
 					<h3 class="hndle"><span><?php _e('Template code for Post,Page and Comment.', 'ldclite'); ?></span></h3>
