@@ -122,7 +122,7 @@ For any more questions you can <a href="http://www.sketchthemes.com/helpdesk/ind
 == Changelog ==
 
 = Version 1.2.1 =
-* Upadted text content.
+* Updated text content.
 * Changed default options.
 
 = Version 1.2.0 =
