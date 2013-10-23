@@ -12,7 +12,10 @@ A simple ajax based WordPress Plugin which allows you to like or dislike posts, 
 
 == Description ==
 
-Like Dislike counter plugin allows to integrate Like, Dislike Button into your WordPress website to allow your visitors to like and dislike pages, posts, custom post types and comments anonymously. Its very simple to use. Users even don't have to write a single line of code to setup this plugin. It counts unique likes/dislikes for post/pages/comments. 
+Like Dislike counter plugin allows to integrate Like, Dislike Button into your WordPress website to allow your visitors to like and dislike pages, posts, custom post types and comments anonymously. Its very simple to use. Users even don't have to write a single line of code to setup this plugin. It counts unique likes/dislikes for post/pages/comments.
+
+[vimeo https://vimeo.com/77501209]
+ 
 
 **PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
 " target="_blank">Like Dislike Pro Plugin Url</a>**
