@@ -2,9 +2,9 @@
 Contributors: tikendramaitry, rahulbrilliant2004, Nishant Jain
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wpfruits@gmail.com&item_name=Like%20Dislike%20Counter%20Lite&item_number=WordPress.org%20Donation&currency_code=USD&lc=US
 Tags: like counter, dislike counter,like, dislike, most liked posts and comments, recently liked posts and comments, thumbs down, thumbs up, like dislike page, like dislike post, like dislike comments
-Requires at least: 2.8
-Tested up to: 3.6
-Stable tag: 1.2.1
+Requires at least: 3.0
+Tested up to: 3.8
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,10 +12,7 @@ A simple ajax based WordPress Plugin which allows you to like or dislike posts, 
 
 == Description ==
 
-Like Dislike counter plugin allows to integrate Like, Dislike Button into your WordPress website to allow your visitors to like and dislike pages, posts, custom post types and comments anonymously. Its very simple to use. Users even don't have to write a single line of code to setup this plugin. It counts unique likes/dislikes for post/pages/comments.
-
-[vimeo https://vimeo.com/77501209]
- 
+Like Dislike counter plugin allows to integrate Like, Dislike Button into your WordPress website to allow your visitors to like and dislike pages, posts, custom post types and comments anonymously. Its very simple to use. Users even don't have to write a single line of code to setup this plugin. It counts unique likes/dislikes for post/pages/comments. 
 
 **PRO Plugin URL: <a href="http://www.sketchthemes.com/plugins/like-dislike-counter-pro-wordpress-plugin/
 " target="_blank">Like Dislike Pro Plugin Url</a>**
@@ -124,8 +121,12 @@ For any more questions you can <a href="http://www.sketchthemes.com/helpdesk/ind
 
 == Changelog ==
 
+= Version 1.2.2 =
+* Fixed few plugin admin setting css styles.
+* Compatible with WordPress latest version (3.8).
+
 = Version 1.2.1 =
-* Updated text content.
+* Upadted text content.
 * Changed default options.
 
 = Version 1.2.0 =
