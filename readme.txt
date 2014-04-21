@@ -123,7 +123,7 @@ For any more questions you can <a href="http://www.sketchthemes.com/helpdesk/ind
 
 = Version 1.2.3 =
 
-* Compatible with WordPress latest version (3.9).
+* Compatible with WordPress latest version(3.9).
 
 = Version 1.2.2 =
 
