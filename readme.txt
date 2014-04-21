@@ -3,8 +3,8 @@ Contributors: tikendramaitry, rahulbrilliant2004, Nishant Jain
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wpfruits@gmail.com&item_name=Like%20Dislike%20Counter%20Lite&item_number=WordPress.org%20Donation&currency_code=USD&lc=US
 Tags: like counter, dislike counter,like, dislike, most liked posts and comments, recently liked posts and comments, thumbs down, thumbs up, like dislike page, like dislike post, like dislike comments
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.2.2
+Tested up to: 3.9
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -121,22 +121,34 @@ For any more questions you can <a href="http://www.sketchthemes.com/helpdesk/ind
 
 == Changelog ==
 
+= Version 1.2.3 =
+
+* Compatible with WordPress latest version (3.9).
+
 = Version 1.2.2 =
+
 * Fixed few plugin admin setting css styles.
 * Compatible with WordPress latest version (3.8).
 
 = Version 1.2.1 =
+
 * Upadted text content.
 * Changed default options.
 
 = Version 1.2.0 =
+
 * Added admin panel for plugin
 * Added code to auto integrate like-dislike button on post/page and comments section.
 * Fixed some issues with the WordPress 3.6
 * Updated front like dislike button appearance.
 
 = Version 1.1.0 =
+
 * Updated plugin to show down.png in comments too. Earlier it was showing up.png for both like and dislike. 
+
+= Version 1.0.0 =
+
+* Initial release
 
 == Upgrade notice ==
 * Upgrade quickly for better performance of plugin.
