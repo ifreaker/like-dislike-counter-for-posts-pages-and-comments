@@ -4,7 +4,7 @@ Plugin Name: Like Dislike counter
 Plugin URI: http://www.wpfruits.com
 Description: Like dislike counter for posts and comments
 Author: WPFruits
-Version: 1.2.3
+Version: 1.3.0
 Author URI: http://www.wpfruits.com
 */
 

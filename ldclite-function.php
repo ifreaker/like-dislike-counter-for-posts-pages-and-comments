@@ -52,7 +52,8 @@ function get_post_ul_meta($post_id,$up_type)
 {
 	global $wpdb;
 	$table_name = $wpdb->prefix."like_dislike_counters"; 
-	$sql="select ul_value from $table_name where post_id=$post_id and ul_key='$up_type' ;";
+	$sql = $wpdb->prepare( "select ul_value from $table_name where post_id = %d and ul_key = %s",$post_id, $up_type );
+	
 	$to_ret=$wpdb->get_var($sql);
 	if(empty($to_ret))
 	{
@@ -142,7 +143,8 @@ function update_post_ul_meta($post_id,$up_type)
 	}
 	if($lnumber)
 	{ 
-	$sql="update $table_name set ul_value=".($lnumber+1)." where post_id='$post_id' and ul_key='$up_type';";
+		$sql = $wpdb->prepare( "update $table_name set ul_value = %d where post_id = %d and ul_key = %s",$lnumber+1, $post_id, $up_type );
+	
 		if(isset($_COOKIE['ul_post_cnt']))
 		{
 			$posts=$_COOKIE['ul_post_cnt'];
@@ -160,7 +162,8 @@ function update_post_ul_meta($post_id,$up_type)
 	}
 	else
 	{
-		$sql="insert into $table_name(post_id,ul_key,ul_value) values('$post_id','$up_type',".($lnumber+1).");";
+		$sql = $wpdb->prepare( "insert into $table_name(post_id,ul_key,ul_value) values(%d,%s,%d)",$post_id, $up_type,$lnumber+1 );
+
 		if(isset($_COOKIE['ul_post_cnt']))
 		{
 			$posts=$_COOKIE['ul_post_cnt'];
