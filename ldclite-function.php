@@ -227,7 +227,7 @@ function admin_update_likes ($post_id, $up_type, $lnumber) {
 	} else {
 		$sql = $wpdb->prepare( "insert into $table_name(post_id,ul_key,ul_value) values(%d,%s,%d)",$post_id, $up_type,$lnumber );
 	}
-	error_log($sql);
+	//error_log($sql);
 	$wpdb->query($sql);
 
 }
