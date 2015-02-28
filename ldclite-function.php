@@ -183,6 +183,56 @@ function update_post_ul_meta($post_id,$up_type)
 	}
 }
 
+/* Admin Like Editing Function - Begin */
+add_action( 'add_meta_boxes_comment', 'pmg_comment_tut_add_meta_box' );
+function pmg_comment_tut_add_meta_box()
+{
+    add_meta_box( 'pmg-comment-title', __( 'Comment Likes' ), 'pmg_comment_tut_meta_box_cb', 'comment', 'normal', 'high' );
+}
+
+function pmg_comment_tut_meta_box_cb( $comment )
+{
+    $likes = get_post_ul_meta( $comment->comment_ID, 'c_like' );
+    $dislikes = get_post_ul_meta( $comment->comment_ID, 'c_dislike' );
+    wp_nonce_field( 'pmg_comment_update', 'pmg_comment_update', false );
+    ?>
+    <p>
+        <label for="pmg_comment_likes"><?php _e( 'Likes' ); ?></label>;
+        <input type="text" name="pmg_comment_likes" value="<?php echo esc_attr( $likes ); ?>" class="widefat" />
+                <label for="pmg_comment_dislikes"><?php _e( 'Dislikes' ); ?></label>;
+        <input type="text" name="pmg_comment_dislikes" value="<?php echo esc_attr( $dislikes ); ?>" class="widefat" />
+        
+    </p>
+    <?php
+}
+
+
+function pmg_comment_tut_edit_comment( $comment_id )
+{ 
+    if( ! isset( $_POST['pmg_comment_update'] ) || ! wp_verify_nonce( $_POST['pmg_comment_update'], 'pmg_comment_update' ) )
+        return;
+    if( isset( $_POST['pmg_comment_likes'] ) )
+          admin_update_likes($comment_id, "c_like", (int)$_POST['pmg_comment_likes'] );
+    if( isset( $_POST['pmg_comment_dislikes'] ) )
+          admin_update_likes($comment_id, "c_dislike", (int)$_POST['pmg_comment_dislikes'] );
+}
+add_action( 'edit_comment', 'pmg_comment_tut_edit_comment' );
+
+function admin_update_likes ($post_id, $up_type, $lnumber) {
+	global $wpdb;
+	$table_name = $wpdb->prefix."like_dislike_counters";
+	$olnumber = get_post_ul_meta($post_id, $up_type);
+	if($olnumber) {
+		$sql = $wpdb->prepare( "update $table_name set ul_value = %d where post_id = %d and ul_key = %s", $lnumber, $post_id, $up_type );
+	} else {
+		$sql = $wpdb->prepare( "insert into $table_name(post_id,ul_key,ul_value) values(%d,%s,%d)",$post_id, $up_type,$lnumber );
+	}
+	error_log($sql);
+	$wpdb->query($sql);
+
+}
+/*Admin Like Editing Functions - End*/
+
 function like_counter_p($text="Likes: ",$post_id=NULL){
 	global $ldc;
 	global $post_id;
