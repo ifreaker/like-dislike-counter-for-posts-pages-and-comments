@@ -65,9 +65,9 @@ function get_post_ul_meta($post_id,$up_type)
 
 
 if(isset($ldc_options['ldc_deactivate']) && $ldc_options['ldc_deactivate']===0){
-	if ( ! is_admin() ) {
+	//if ( ! is_admin() ) {
 	add_filter( 'comment_text', 'ldclite_addCommentLike' );
-	}
+	//}
 	// add_action( 'the_content', 'ldclite_addPostLike' );
 }
 
